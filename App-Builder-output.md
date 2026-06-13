@@ -3,7 +3,7 @@
 ## 📊 Project Information
 
 - **Project Name**: `App-Builder`
-- **Generated On**: 2026-06-13 19:13:44 (Asia/Damascus / GMT+03:00)
+- **Generated On**: 2026-06-13 19:52:01 (Asia/Damascus / GMT+03:00)
 - **Total Files Processed**: 84
 - **Export Tool**: Easy Whole Project to Single Text File for LLMs v1.1.0
 - **Tool Author**: Jota / José Guilherme Pandolfi
@@ -22,6 +22,8 @@
 ```
 ├── 📁 guidelines/
 │   └── 📄 Guidelines.md (2.5 KB)
+├── 📁 public/
+│   └── 📄 logo.png (62.77 KB)
 ├── 📁 src/
 │   ├── 📁 app/
 │   │   ├── 📁 components/
@@ -104,8 +106,7 @@
 │   └── 📄 main.tsx (183 B)
 ├── 📄 ATTRIBUTIONS.md (290 B)
 ├── 📄 default_shadcn_theme.css (4.22 KB)
-├── 📄 dist.zip (194.61 KB)
-├── 📄 index.html (691 B)
+├── 📄 index.html (754 B)
 ├── 📄 package.json (2.51 KB)
 ├── 📄 pnpm-lock.yaml (158.01 KB)
 ├── 📄 pnpm-workspace.yaml (17 B)
@@ -200,22 +201,21 @@
 | Metric | Count |
 |--------|-------|
 | Total Files | 84 |
-| Total Directories | 8 |
+| Total Directories | 9 |
 | Text Files | 74 |
 | Binary Files | 10 |
-| Total Size | 1.43 MB |
+| Total Size | 1.3 MB |
 
 ### 📄 File Types Distribution
 
 | Extension | Count |
 |-----------|-------|
 | `.tsx` | 57 |
-| `.png` | 8 |
+| `.png` | 9 |
 | `.css` | 6 |
 | `.md` | 4 |
 | `.ts` | 3 |
 | `.yaml` | 2 |
-| `.zip` | 1 |
 | `.html` | 1 |
 | `.json` | 1 |
 | `.mjs` | 1 |
@@ -304,6 +304,12 @@ or initiating processes. They communicate interactivity and should have clear, a
 ````
 
 ---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `public/logo.png`
 
 ### <a id="📄-src-app-components-figma-imagewithfallback-tsx"></a>📄 `src/app/components/figma/ImageWithFallback.tsx`
 
@@ -8356,15 +8362,15 @@ This Figma Make file includes photos from [Unsplash](https://unsplash.com) used 
 ### <a id="📄-index-html"></a>📄 `index.html`
 
 **File Info:**
-- **Size**: 691 B
+- **Size**: 754 B
 - **Extension**: `.html`
 - **Language**: `html`
 - **Location**: `index.html`
 - **Relative Path**: `root`
 - **Created**: 2026-06-13 18:54:22 (Asia/Damascus / GMT+03:00)
-- **Modified**: 2026-06-13 18:54:51 (Asia/Damascus / GMT+03:00)
-- **MD5**: `0fb828a2559c89e9f6fb44a7accd6d30`
-- **SHA256**: `a3ff32082196e44ab1055210a08da698b57bab2abf7c1cfea5ce3a05546bb07a`
+- **Modified**: 2026-06-13 19:52:01 (Asia/Damascus / GMT+03:00)
+- **MD5**: `04bc82d4f0ec4433d5ad2a4a45f90e4d`
+- **SHA256**: `ff70cdb8be8f8b51a2afd1921a1b708b5d0dd5f02893a92baea92e8c345e56db`
 - **Encoding**: ASCII
 
 **File code content:**
@@ -8377,10 +8383,11 @@ This Figma Make file includes photos from [Unsplash](https://unsplash.com) used 
       
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>App Builder</title>
+      <title>Imagine AI</title>
       <meta name="description" content="Streamline project management with intuitive task tracking and collaboration tools designed to boost team productivity and meet deadlines efficiently." />
       <meta name="robots" content="noindex, nofollow" />
       <style>html, body { height: 100%; margin: 0; } #root { height: 100%; }</style>
+      <link rel="icon" type="image/svg+xml" href="/logo.png" />
       
     </head>
 
@@ -12918,6 +12925,5 @@ export default defineConfig({
 
 The following files were not included in the text content:
 
-- `dist.zip`
 - `postcss.config.mjs`
 
